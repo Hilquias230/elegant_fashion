@@ -1,0 +1,166 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: #1a1a1a;
+}
+
+header {
+    background-color: #000;
+    color: #ffff
+}
+
+.titulo a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+h2{
+    margin-top: 20px;
+    color: #ffff;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.titulo-div {
+    display: flex;
+    justify-content: center;
+}
+
+.pesquisa-div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container-header h1 {
+    font-weight: bolder;
+}
+
+.barra-pesquisa {
+    height: 40px;
+    width: 500px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.botao-pesquisa {
+    height: 40px;
+    width: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2e2e2e;
+}
+
+.botao-pesquisa:hover {
+    background-color: #949494;
+}
+
+.pesquisa-div img {
+    width: 40px;
+}
+
+.navbar {
+    background-color: #2e2e2e;
+    padding: 15px;
+    height: 20px;
+
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.nav-list a {
+    color: #ffff;
+    text-decoration: none;
+    align-items: center;
+}
+
+.nav-list a:hover {
+    color: #949494;
+}
+
+.compras-div {
+    width: 130vh;
+    height: 100vh;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #2e2e2e;
+
+}
+
+.container-main {
+    display: grid;
+    place-items: center;
+}
+.resumo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    width: 50vh;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #000;
+    color: #ffff;
+
+}
+
+.resumo-div p{
+    font-size: 20px;
+}
+
+.container-ternos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-ternos img {
+    width: 90vh;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: #000;
+}
+.imagem-div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #ffff;
+
+}
+.imagem-div img {
+    width: 30vh;
+}
+.bloco {
+    display: grid;
+    place-items: center;
+    height: 400px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 1px;
+    background-color: #2e2e2e;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    padding: 10px;
+    background-color: #000;
+    color: #ffff;
+    font-weight: bold;
+}
+
+
